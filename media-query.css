@@ -1,0 +1,129 @@
+@media (max-width: 600px) {
+    .options {
+        display: none;
+      }
+    
+      .options-mobile {
+        width: 375px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .options-mobile a {
+        font-weight: 700;
+      }
+
+      .page-content {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .borda-vertical {
+        display: none;
+      }
+
+      .borda-horizontal {
+        display: none;
+      }
+
+      .destaques {
+        width: 375px;
+        padding-bottom: 25px;
+      }
+
+      .destaque-primario {
+        font-size: 32px;
+        padding-bottom: 30px;
+        font-weight: 700;
+        line-height: 40px;
+      }
+
+      .destaque-secundario {
+        font-size: 18px;
+        padding-bottom: 10px;
+        font-weight: 700;
+      }
+
+      .destaque-secundario a {
+        color: #cd150b;
+      }
+
+      .linha {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 0;
+      }
+
+      .news-linha {
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        border-top: 1px solid #ebedef;
+      }
+
+      .legenda {
+          display: none;
+      }
+
+      .materia-primaria {
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 5px;
+      }
+
+      .titulo {
+        font-size: 18px;
+        font-weight: 700;
+        width: 211px;
+        padding-top: 0;
+        line-height: 25px;
+      }
+
+      .sem-imagem {
+          width: 100%;
+      }
+
+      .titulo-secundario {
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 0px;
+        padding-bottom: 10px;
+      }
+
+      .titulo-secundario:last-child {
+          padding-bottom: 0;
+      }
+
+      .small-img, .big-img {
+        height: 67.37px;
+        width: 120px;
+        border-radius: 2.82px;
+      }
+
+      .news-coluna {
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        border-top: 1px solid #ebedef;
+        margin-bottom: 0px;
+      }
+
+      .g1-color-mobile, .g1-color-mobile a {
+        color: #c4160c;
+        }
+        
+      .ge-color-mobile, .ge-color-mobile a {
+        color: #07aa47;
+      }
+
+      .gshow-color-mobile, .gshow-color-mobile a {
+        color: #ec7d00;
+      }
+}
